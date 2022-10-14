@@ -16,7 +16,7 @@ import { ErrorMessage } from "../../Models/error-message";
 
 @Component({
   // tslint:disable:component-selector
-  selector: ".form-group",
+  selector: ".form-group,.form-group-bs5",
   template: `
     <ng-content></ng-content>
     <bfv-messages *ngIf="!messagesBlock" [messages]="messages"></bfv-messages>
